@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://Shaders/Highlight.shader" type="Shader" id=1]
+
+[resource]
+render_priority = 5
+shader = ExtResource( 1 )
+shader_param/intensity = null
+shader_param/precision = null
+shader_param/outline_color = Color( 0.878431, 0.00392157, 0.00392157, 1 )
