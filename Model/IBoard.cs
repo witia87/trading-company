@@ -3,6 +3,6 @@ namespace TradingCompany.Model {
 		int Rows { get; }
 		int Columns { get; }
 
-		Field[][] Fields { get; }
+		Field[,] Fields { get; }
 	}
 }

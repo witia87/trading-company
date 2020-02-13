@@ -3,7 +3,8 @@ namespace TradingCompany.Model.Grounds {
 		public GroundType GroundType;
 		public bool IsAccessible;
 
-		public Ground(GroundType groundType, bool isAccessible) {
+		public Ground(GroundType groundType,
+		              bool isAccessible) {
 			GroundType = groundType;
 			IsAccessible = isAccessible;
 		}

@@ -1,14 +1,13 @@
 namespace TradingCompany.Model {
 	public class Board : IBoard {
-		public Board(Field[][] fields) {
+		public Board(Field[,] fields) {
 			Fields = fields;
 
-			Rows = fields.Length;
-			Columns = fields[0].Length;
+			Rows = fields.GetLength(0);
+			Columns = fields.GetLength(1);
 		}
 
-		public Field[][] Fields { get; }
-
+		public Field[,] Fields { get; }
 
 		public int Rows { get; }
 

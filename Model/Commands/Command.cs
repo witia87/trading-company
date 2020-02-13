@@ -1,5 +1,5 @@
 using System;
-using TradingCompany.Model.Math;
+using TradingCompany.Common.Math;
 
 namespace TradingCompany.Model.Commands {
 	public struct Command : IEquatable<Command> {
